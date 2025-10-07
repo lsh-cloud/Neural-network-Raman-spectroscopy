@@ -10,7 +10,7 @@ Typically for classification of images (2D data) **Conv2D** is used in the model
 
 ## Setup instructions
 
-Note: The Raman spectra could not be included in this repository but the code, step-by-step instructions, results and graphs are all available. If wanted the user can download the repository and use their own data.
+>Note: The Raman spectra could not be included in this repository but the code, step-by-step instructions, results and graphs are all available. If wanted the user can download the >repository and use their own data.
 
 Clone the repository: git clone https://github.com/your-username/raman-classification.git
 
