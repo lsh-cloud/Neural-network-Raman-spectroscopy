@@ -6,7 +6,7 @@ The classification model was made using **TensorFlow** and **Keras**.
 
 ## Technical Details
 
-Typically for classification of images (2D data) **Conv2D** is used in the model. Raman Spectra are 1d data and as a result **Conv1D** are used in this model similar to how **Conv2D** are used in an image classification model.
+Typically for classification of images (2D data) **Conv2D** is used in the model. Raman Spectra are 1D data and as a result **Conv1D** are used in this model similar to how **Conv2D** are used in an image classification model.
 
 ## Setup instructions
 
