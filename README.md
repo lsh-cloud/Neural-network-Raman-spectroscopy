@@ -28,7 +28,7 @@ However there was limited data. Further work can include expanding this model to
 >Note: The Raman spectra is not included in this repository, but the code, step-by-step instructions, results and visualisation are all available. If wanted the user can download the repository and use their own data.
 
 ```bash
-gh repo clone lsh-cloud/Neural-network-Raman-spectroscopy  
+git clone https://github.com/lsh-cloud/Neural-network-Raman-spectroscopy.git
 cd Neural-network-Raman-spectroscopy  
 pip install -r requirements.txt  
 
