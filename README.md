@@ -19,7 +19,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 
 ## Results and Further Work
 - **Validation Accuracy**: 100%
-- **ROC AUC**: 1.0
+- **ROC AUC**: 1.0  
 However there was limited data. Further work can include expanding this model to include multiple different materials and to train on more data. 
 
 
