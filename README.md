@@ -10,6 +10,6 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 
 >Note: The Raman spectra could not be included in this repository, but the code, step-by-step instructions, results and visualisation are all available. If wanted the user can download the repository and use their own data.
 
-Clone the repository: git clone https://github.com/lsh-cloud/raman-classification.git
+Clone the repository: gh repo clone lsh-cloud/Neural-network-Raman-spectroscopy
 
 
