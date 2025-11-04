@@ -6,10 +6,30 @@ In this project a neural network classification model is created to identify mat
 
 The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D** layers to process the 1D spectral data - analogous to how **Conv2D** layers are used in image classification tasks.
 
+## Model Architecture
+- Conv1D layers for feature extraction.
+- Dense layers with dropout for regularisation.
+- Sigmoid output for binary classification.
+
+## Key Features
+- **Custom Data Generator** for 1D Raman spectra.  
+- **Conv1D Architecture** to discern identifiable features from the spectra.  
+- **Hyperparameter Tuning** using Keras Tuner.  
+- **Evaluation Metrics**: Confusion Matrix, ROC Curve, Classification Report.
+
+## Results and Further Work
+- **Validation Accuracy**: 100%
+- **ROC AUC**: 1.0
+However there was limited data. Further work can include expanding this model to include multiple different materials and to train on more data. 
+
+
 ## Setup instructions
 
->Note: The Raman spectra could not be included in this repository, but the code, step-by-step instructions, results and visualisation are all available. If wanted the user can download the repository and use their own data.
+>Note: The Raman spectra is not included in this repository, but the code, step-by-step instructions, results and visualisation are all available. If wanted the user can download the repository and use their own data.
 
-Clone the repository: gh repo clone lsh-cloud/Neural-network-Raman-spectroscopy
+gh repo clone lsh-cloud/Neural-network-Raman-spectroscopy  
+cd Neural-network-Raman-spectroscopy  
+pip install -r requirements.txt  
+
 
 
