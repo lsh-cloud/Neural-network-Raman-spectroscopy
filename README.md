@@ -21,7 +21,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 - **Validation Accuracy**: 100%
 - **ROC AUC**: 1.0
 - **Confusion Matrix**  
-  ![Confusion Matrix](Images/Confusion_Matrix.png)
+  ![Confusion Matrix](Images/Confusion_Matrix.png)  
 However there was limited data. Further work can include expanding this model to include multiple different materials and to train on more data. 
 
 
