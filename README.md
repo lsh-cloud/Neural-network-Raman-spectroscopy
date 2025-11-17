@@ -12,6 +12,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 - Sigmoid output for binary classification.
 
 ## Key Features
+- Raman spectra were simulated using Voigt profiles to represent the Raman modes. The peak positions and widths were slightly varied to introduce diversity, and random noise was added to the data.
 - **Custom Data Generator** for 1D Raman spectra.  
 - **Conv1D Architecture** to discern identifiable features from the spectra.  
 - **Hyperparameter Tuning** using Keras Tuner.  
