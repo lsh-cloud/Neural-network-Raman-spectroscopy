@@ -1,6 +1,6 @@
 # Classification of crystals using Raman spectra and Deep Learning
 
-In this project, a neural network classification model is created to identify materials from their Raman spectra. The Raman spectra in this project belong to the crystals **ReS<sub>2</sub>** and **ReSe<sub>2</sub>**, these crystals have a large number of non-degenerate vibrational modes, and as a result, the Raman spectra contain numerous features that can be identified by a classification model.   
+In this project, a neural network classification model is created to categorise simulated Raman spectra, with the aim to demonstrate that Raman spectroscopy can be effectively combined with machine learning for material identification.
 
 ## Technical Details
 
@@ -12,6 +12,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 - Sigmoid output for binary classification.
 
 ## Key Features
+- Raman spectra were simulated using Voigt profiles to represent the Raman modes. The peak positions and widths were slightly varied to introduce diversity, and random noise was added to the data.
 - **Custom Data Generator** for 1D Raman spectra.  
 - **Conv1D Architecture** to discern identifiable features from the spectra.  
 - **Hyperparameter Tuning** using Keras Tuner.  
@@ -22,7 +23,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 - **ROC AUC**: 1.0
 - **Confusion Matrix**  
   ![Confusion Matrix](Images/Confusion_Matrix.png)  
-However, there was limited data. Further work could include expanding this model to include multiple different materials and training on a larger dataset. 
+  The next steps in this project would be to retrieve Raman spectra from a database to further train this model.
 
 
 ## Setup instructions
