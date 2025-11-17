@@ -1,6 +1,6 @@
 # Classification of crystals using Raman spectra and Deep Learning
 
-In this project, a neural network classification model is created to identify materials from their Raman spectra. The Raman spectra in this project belong to the crystals **ReS<sub>2</sub>** and **ReSe<sub>2</sub>**, these crystals have a large number of non-degenerate vibrational modes, and as a result, the Raman spectra contain numerous features that can be identified by a classification model.   
+In this project, a neural network classification model is created to categorise simulated Raman spectra, with the aim to demonstrate that Raman spectroscopy can be effectively combined with machine learning for material identification.
 
 ## Technical Details
 
