@@ -22,7 +22,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 - **Validation Accuracy**: 100%
 - **ROC AUC**: 1.0
 - **Confusion Matrix**  
-  ![Confusion Matrix](Images/Confusion_Matrix.png)  
+  ![Confusion Matrix](Images/confusion_matrix_evaluation.png)  
   The next steps in this project would be to retrieve Raman spectra from a database to further train this model.
 
 
