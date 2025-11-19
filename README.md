@@ -9,7 +9,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 ## Model Architecture
 - Conv1D layers for feature extraction.
 - Dense layers with dropout for regularisation.
-- Sigmoid output for binary classification.
+- Softmax output for multiclass classification.
 
 ## Key Features
 - Raman spectra were simulated using Voigt profiles to represent the Raman modes. The peak positions and widths were slightly varied to introduce diversity, and random noise was added to the data.
