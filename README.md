@@ -28,7 +28,7 @@ The model is implemented using **TensorFlow** and **Keras**, employing **Conv1D*
 
 ## Setup instructions
 
->Note: The Raman spectra are not included in this repository, but the code, step-by-step instructions, results, and visualisations are all available. If wanted the user can download the repository and use their own data.
+>Note: The requirements.txt file installs a version of TensorFlow compatible with ARM-based Macs.
 
 ```bash
 git clone https://github.com/lsh-cloud/Neural-network-Raman-spectroscopy.git
